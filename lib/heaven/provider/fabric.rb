@@ -35,7 +35,7 @@ module Heaven
           }
 
           log "Executing fabric: #{deploy_command}"
-          execute_and_log(deploy_command)
+          execute_and_log([deploy_command])
         end
       end
     end
